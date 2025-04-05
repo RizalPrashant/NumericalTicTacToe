@@ -1,0 +1,14 @@
+/Users/rizalprashant/OOAssignmentPrashant/NumericTicTacToe/bin/Debug/net8.0/NumericTicTacToe
+/Users/rizalprashant/OOAssignmentPrashant/NumericTicTacToe/bin/Debug/net8.0/NumericTicTacToe.deps.json
+/Users/rizalprashant/OOAssignmentPrashant/NumericTicTacToe/bin/Debug/net8.0/NumericTicTacToe.runtimeconfig.json
+/Users/rizalprashant/OOAssignmentPrashant/NumericTicTacToe/bin/Debug/net8.0/NumericTicTacToe.dll
+/Users/rizalprashant/OOAssignmentPrashant/NumericTicTacToe/bin/Debug/net8.0/NumericTicTacToe.pdb
+/Users/rizalprashant/OOAssignmentPrashant/NumericTicTacToe/obj/Debug/net8.0/NumericTicTacToe.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rizalprashant/OOAssignmentPrashant/NumericTicTacToe/obj/Debug/net8.0/NumericTicTacToe.AssemblyInfoInputs.cache
+/Users/rizalprashant/OOAssignmentPrashant/NumericTicTacToe/obj/Debug/net8.0/NumericTicTacToe.AssemblyInfo.cs
+/Users/rizalprashant/OOAssignmentPrashant/NumericTicTacToe/obj/Debug/net8.0/NumericTicTacToe.csproj.CoreCompileInputs.cache
+/Users/rizalprashant/OOAssignmentPrashant/NumericTicTacToe/obj/Debug/net8.0/NumericTicTacToe.dll
+/Users/rizalprashant/OOAssignmentPrashant/NumericTicTacToe/obj/Debug/net8.0/refint/NumericTicTacToe.dll
+/Users/rizalprashant/OOAssignmentPrashant/NumericTicTacToe/obj/Debug/net8.0/NumericTicTacToe.pdb
+/Users/rizalprashant/OOAssignmentPrashant/NumericTicTacToe/obj/Debug/net8.0/NumericTicTacToe.genruntimeconfig.cache
+/Users/rizalprashant/OOAssignmentPrashant/NumericTicTacToe/obj/Debug/net8.0/ref/NumericTicTacToe.dll
