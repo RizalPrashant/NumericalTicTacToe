@@ -1,6 +1,7 @@
 
 using System.Reflection.Metadata.Ecma335;
 
+//This is the class for Computer Player.
 public class Computer : Player
 {
     public Computer(string name, List<int> numbersList) : base(name, numbersList)

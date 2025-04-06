@@ -1,11 +1,12 @@
 
+// This is the class for Human Player
 public class Human : Player
 {
     public Human(string name, List<int> numbersList) : base(name, numbersList)
     {
     }
 
-    public override Move MakeAMove(Board board)
+    public override Move MakeAMove(Board board) // Method to make a move by human
     {
         while (true)
         {
