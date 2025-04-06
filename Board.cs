@@ -1,6 +1,7 @@
 /* This is the board class that set up all elements an functions necessary of the game board */
 using System.Diagnostics.CodeAnalysis;
 using System.Numerics;
+using System.Text.Json.Serialization;
 
 public class Board
 {
@@ -113,4 +114,29 @@ public class Board
     {
         return size * ((int)Math.Pow(size, 2) + 1) / 2;
     }
+
+    public List<(int, int)> getAllEmptySquares() // Method that will get all empty squares in the board.
+    {
+        List<(int, int)> emptySquareList = new List<(int, int)>();
+        for (int i = 0; i < size; i++)
+        {
+            for (int j = 0; j < size; j++)
+            {
+                if (twoDimensionalGrid[i, j] == 0)
+                {
+                    emptySquareList.Add((i, j));
+                }
+            }
+        }
+        return emptySquareList;
+    }
+
+    public void removeNumberOnBoard(int row, int column)
+    {
+        int number = twoDimensionalGrid[row, column];
+        twoDimensionalGrid[row, column] = 0;
+        numbersOnBoard.Remove(number);
+    }
+
+
 }
