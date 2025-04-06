@@ -9,8 +9,14 @@ public class Computer : Player
 
     }
 
+    public string getName()
+    {
+        return this.Name;
+    }
+
     public override Move MakeAMove(Board board) //Method to make a winning move otherwise a valid move
     {
+        Console.WriteLine("Computer is now making the move ...");
         Move winningMove = possibleWinningMove(board);
         if (winningMove != null)
         {
@@ -20,6 +26,7 @@ public class Computer : Player
         Random rand = new Random();
         (int row, int column) = emptySquareList[rand.Next(emptySquareList.Count)]; // getting random row and colum that is empty.
         int number = NumbersInHand[rand.Next(NumbersInHand.Count)]; // getting random number in the hand that is available
+        NumbersInHand.Remove(number);
         return new Move(row, column, number);
     }
 

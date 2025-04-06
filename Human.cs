@@ -6,6 +6,11 @@ public class Human : Player
     {
     }
 
+    public string getName()
+    {
+        return this.Name;
+    }
+
     public override Move MakeAMove(Board board) // Method to make a move by human
     {
         while (true)

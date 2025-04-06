@@ -12,3 +12,4 @@
 /Users/rizalprashant/OOAssignmentPrashant/NumericTicTacToe/obj/Debug/net8.0/NumericTicTacToe.pdb
 /Users/rizalprashant/OOAssignmentPrashant/NumericTicTacToe/obj/Debug/net8.0/NumericTicTacToe.genruntimeconfig.cache
 /Users/rizalprashant/OOAssignmentPrashant/NumericTicTacToe/obj/Debug/net8.0/ref/NumericTicTacToe.dll
+/Users/rizalprashant/OOAssignmentPrashant/NumericTicTacToe/obj/Debug/net8.0/NumericTicTacToe.sourcelink.json

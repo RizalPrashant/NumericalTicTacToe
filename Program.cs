@@ -6,7 +6,7 @@ public class Program
     public static void Main()
     {
         GameGenerator generator = new GameGenerator();
-        //generator.start();
+        generator.Start();
     }
 
 }
