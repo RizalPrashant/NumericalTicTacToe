@@ -44,7 +44,7 @@ public class GameGenerator
         }
     }
 
-    private void NewGame()
+    private void NewGame() // This is the initialisation of a new game
     {
         try
         {
@@ -101,12 +101,12 @@ public class GameGenerator
         }
     }
 
-    private void LoadGame()
+    private void LoadGame() //method to load the game
     {
 
     }
 
-    private void GameFlow()
+    private void GameFlow() // after new game is initiatlized, this method will be the flow of the game
     {
         board.showCurrentBoardStatus();
         Move currentMove = currentPlayer.MakeAMove(board);
@@ -152,17 +152,17 @@ public class GameGenerator
 
     }
 
-    private void ChangePlayerTurn()
+    private void ChangePlayerTurn() // simple method to switch player's turn
     {
         currentPlayer = currentPlayer == player1 ? player2 : player1;
     }
 
-    private void SaveGame()
+    private void SaveGame() // method to automatically save the game
     {
 
     }
 
-    private void HelpMenu()
+    private void HelpMenu() //method to show a help guide to user.
     {
         Help.showHelp();
     }
