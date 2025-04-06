@@ -12,10 +12,36 @@ public class GameGenerator
     private int boardSize;
     private int gameMode;
 
-    public void Start()
+    public void Start() // Very first method the entrypoint of the game generator. This is where user chooses new game, load game or seeing help menu.
     {
-        // TODO Need to ask user what they want to do new game, help or load game
-        NewGame();
+        try
+        {
+            Console.WriteLine("Welcome to the Numerical Tic Tac Toe");
+            Console.WriteLine("Enter (1) for New Game (2) for Load Game and (3) for Help Menu");
+            int startMode = int.Parse(Console.ReadLine());
+            if (startMode == 1)
+            {
+                NewGame();
+            }
+            else if (startMode == 2)
+            {
+                LoadGame();
+            }
+            else if (startMode == 3)
+            {
+                HelpMenu();
+                NewGame();
+            }
+            else
+            {
+                Console.WriteLine("You must choose 1, 2, or 3. Terminating Application");
+
+            }
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine("Invalid Input. You must choose 1,2 or 3");
+        }
     }
 
     private void NewGame()
@@ -24,7 +50,7 @@ public class GameGenerator
         {
             Console.WriteLine("Enter the size of the board : ");
             boardSize = int.Parse(Console.ReadLine());
-            Console.WriteLine("Enter 1 for Two player competition or 2 for Human Versus Computer : ");
+            Console.WriteLine("Enter (1) for Two player competition or (2) for Human Versus Computer : ");
             gameMode = int.Parse(Console.ReadLine());
 
             board = new Board(boardSize);
@@ -138,7 +164,7 @@ public class GameGenerator
 
     private void HelpMenu()
     {
-
+        Help.showHelp();
     }
 
 
